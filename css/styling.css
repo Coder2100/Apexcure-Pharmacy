@@ -1,0 +1,247 @@
+body{
+  padding-top: 50px;
+  }
+  #navbar{
+background-color: #FFFFFF;
+   background-color: #2E8B57;
+  }
+  /*change color to white*/
+  #text{
+    background-color: #2E8B57;
+    color: #FFFFFF;
+  }
+    #store{
+    background-color: #FFFFFF;
+    color: #2E8B57;
+  }
+#headerWrapper{
+    position: relative;
+    padding:0;
+    margin:0;
+   overflow:hidden;
+    height:350px;
+    background-image : url(..//images/headerlogo/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    background-position: top centre;
+    background-attachment: fixed;
+
+  }
+  #logotext{
+      position: absolute;
+      width: 100%;
+      height: 180px;
+      background-image: url(..//images/headerlogo/text.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 70% 180px;
+      top:50%;
+      margin-top:-90px;
+    }
+  }
+#fore-image{
+position: absolute;
+width: 100%;
+height:350px;
+background-image :url(..//images/headerlogo/back-image.jpg);
+background-position: right buttom;
+background-repeat: no-repeat;
+background-size: auto 350px;
+top: 75px;
+left:-25px;
+}
+
+#back-image{
+position: absolute;
+width: 100%;
+height:350px;
+background-image :url(..//images/headerlogo/fore-image.jpg);
+background-position: left buttom;
+background-repeat: no-repeat;
+background-size: auto 350px;
+top: 75px;
+left:-25px;
+}
+  #partial-headerWrapper{
+    position: relative;
+    padding: 0%;
+    margin: 0;
+    overflow: hidden;
+    height: 210px;
+    background-image : url(..//images/headerlogo/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    background-position: top centre;
+    background-attachment: fixed;
+  }
+  #partial-logotext{
+      position: absolute;
+      width: 100%;
+      height: 180px;
+      background-image: url(..//images/headerlogo/text.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 70% 180px;
+      top:50%;
+      margin-top:-90px;
+    }
+  }
+#partial-fore-image{
+position: absolute;
+width: 100%;
+height:400px;
+background-image :url(..//images/headerlogo/fore-image.jpg);
+background-position: right buttom;
+background-size: auto 400px;
+background-repeat: no-repeat;
+top:100px;
+right: -50px;
+
+}
+#partial-back-image{
+position: absolute;
+width: 100%;
+height:350px;
+background-image :url(..//images/headerlogo/back-image.jpg);
+background-position: left buttom;
+background-repeat: no-repeat;
+background-size: auto 350px;
+top: 75px;
+left:-25px;
+}
+.img-thumb{
+  width: auto;
+  height:200px;
+}
+
+#footer{
+	margin-top:50px;
+}
+fotorama__wrap{
+  width: 90%;
+  margin: 15x auto;
+}
+.table-auto{
+  width:auto;
+  margin:0 auto;
+}
+#add-product-btn{
+  margin-top:-35px;
+}
+
+.saved-images{
+  text-align: center;
+}
+.saved-images img{
+	width:auto;
+	height: 150px;
+}
+#customer_register-form{
+	width:20%;
+	height:15%;
+	border:2px solid #2E8B57;
+	box-shadow: 7px 7px 15px rgba(0,0,0.6);
+  margin: 0px auto;
+  padding: 20px 10px;
+	background-color:#fff;
+  border-radius: 0px 0px 0px 0px;
+}
+#customer_login-form{
+	width:20%;
+	height:15%;
+	border:2px solid #2E8B57;
+	box-shadow: 7px 7px 15px rgba(0,0,0.6);
+  margin: 0px auto;
+  padding: 20px;
+	background-color:#fff;
+  border-radius: 0px 0px 0px 0px;
+}
+
+
+#login-form{
+  width:50%;
+  height:60%;
+  border:2px solid #2E8B57;
+  border-radius: 15px;
+  box-shadow: 7px 7px 15px rgba(0,0,0.6);
+  margin: 7% auto;
+  padding: 15px;
+  background-color:#fff;
+}
+
+.totals-table-header th{
+  text-align: center;
+}
+
+#trolley_widget td{
+  font-size: 12px;
+}
+
+#recent_widget td{
+  font-size: 12px;
+}
+input.price-range{
+  width: 55px;
+}
+
+.footer {
+         position:relative;
+         float:left;
+         color:white;
+         width:100%;
+       }
+       .col {
+         width:31%;
+         padding: 1%;
+         float:left;
+         position:relative;
+         text-align:left;
+         border-right: 1px solid white;
+         height: 300px;
+       }
+      .col2 {
+        width:31%;
+        padding: 1%;
+        float:left;
+        position:relative;
+        text-align:left;
+        border-right: 1px solid white;
+        height: 300px;
+      }
+      .col3 {
+        width:31%;
+        padding: 1%;
+        float:left;
+        position:relative;
+        text-align:left;
+        height: 300px;
+      }
+       @media only screen and (max-width: 500px) {
+         .col {
+          width:98%;
+          padding: 1%;
+          float:left;
+          position:relative;
+          border: none;
+          text-align:left;
+          height: auto;
+         }
+        .col2 {
+          width:98%;
+          padding: 1%;
+          float:left;
+          position:relative;
+          border: none;
+          text-align:left;
+          height: auto;
+        }
+        .col3 {
+          width:98%;
+          padding: 1%;
+          float:left;
+          position:relative;
+          text-align:left;
+          height: auto;
+        }
+       }
+      /*  login and logoutfor customer*/
